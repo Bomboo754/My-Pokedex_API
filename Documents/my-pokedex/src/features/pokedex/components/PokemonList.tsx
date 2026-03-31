@@ -8,7 +8,7 @@ interface PokemonListProps {
   error: string | null;
   onPokemonClick: (pokemon: Pokemon) => void;
   onToggleFavorite: (pokemon: Pokemon) => void;
-  favorites: number[];           // массив id избранных
+  favorites: number[];         
   onLoadMore: () => void;
   hasMore: boolean;
   isLoadingMore: boolean;
